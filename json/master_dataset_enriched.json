@@ -873,337 +873,436 @@
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Type"
+            "Player": "Yuzvendra Chahal",
+            "Team": "RR",
+            "Mat": "155",
+            "Wkts": "205",
+            "Avg": "22.64",
+            "Econ": "7.63",
+            "SR": "17.8",
+            "Best": "5/40",
+            "Type": "Leg-spin"
         },
         "id": 31,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "RR",
+        "player": "Yuzvendra Chahal",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Type",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Yuzvendra Chahal RR 155 205 22.64 7.63 17.8 5/40 Leg-spin",
+        "document_text": "Yuzvendra Chahal from RR has taken 205 wickets with economy 7.63. Average: 22.64. Strike Rate: 17.8. Best: 5/40."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "DJ Bravo",
+            "Team": "CSK",
+            "Mat": "161",
+            "Wkts": "183",
+            "Avg": "25.05",
+            "Econ": "8.43",
+            "SR": "17.7",
+            "Best": "4/22",
+            "Type": "Medium-fast"
         },
         "id": 32,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "CSK",
+        "player": "DJ Bravo",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Leg-spin",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling DJ Bravo CSK 161 183 25.05 8.43 17.7 4/22 Medium-fast",
+        "document_text": "DJ Bravo from CSK has taken 183 wickets with economy 8.43. Average: 25.05. Strike Rate: 17.7. Best: 4/22."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Medium-fast"
+            "Player": "Lasith Malinga",
+            "Team": "MI",
+            "Mat": "122",
+            "Wkts": "170",
+            "Avg": "19.80",
+            "Econ": "7.14",
+            "SR": "16.6",
+            "Best": "5/13",
+            "Type": "Yorker specialist"
         },
         "id": 33,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "MI",
+        "player": "Lasith Malinga",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Medium-fast",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Lasith Malinga MI 122 170 19.80 7.14 16.6 5/13 Yorker specialist",
+        "document_text": "Lasith Malinga from MI has taken 170 wickets with economy 7.14. Average: 19.80. Strike Rate: 16.6. Best: 5/13."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Yorker specialist"
+            "Player": "Piyush Chawla",
+            "Team": "CSK",
+            "Mat": "175",
+            "Wkts": "175",
+            "Avg": "25.58",
+            "Econ": "7.78",
+            "SR": "19.7",
+            "Best": "4/17",
+            "Type": "Leg-spin"
         },
         "id": 34,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "CSK",
+        "player": "Piyush Chawla",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Yorker specialist",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Piyush Chawla CSK 175 175 25.58 7.78 19.7 4/17 Leg-spin",
+        "document_text": "Piyush Chawla from CSK has taken 175 wickets with economy 7.78. Average: 25.58. Strike Rate: 19.7. Best: 4/17."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "Jasprit Bumrah",
+            "Team": "MI",
+            "Mat": "135",
+            "Wkts": "170",
+            "Avg": "22.50",
+            "Econ": "7.39",
+            "SR": "18.2",
+            "Best": "5/10",
+            "Type": "Pace/Yorker"
         },
         "id": 35,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "MI",
+        "player": "Jasprit Bumrah",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Leg-spin",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Jasprit Bumrah MI 135 170 22.50 7.39 18.2 5/10 Pace/Yorker",
+        "document_text": "Jasprit Bumrah from MI has taken 170 wickets with economy 7.39. Average: 22.50. Strike Rate: 18.2. Best: 5/10."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Pace/Yorker"
+            "Player": "Amit Mishra",
+            "Team": "DC",
+            "Mat": "154",
+            "Wkts": "166",
+            "Avg": "24.34",
+            "Econ": "7.36",
+            "SR": "19.8",
+            "Best": "5/17",
+            "Type": "Leg-spin"
         },
         "id": 36,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "DC",
+        "player": "Amit Mishra",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Pace/Yorker",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Amit Mishra DC 154 166 24.34 7.36 19.8 5/17 Leg-spin",
+        "document_text": "Amit Mishra from DC has taken 166 wickets with economy 7.36. Average: 24.34. Strike Rate: 19.8. Best: 5/17."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "Sunil Narine",
+            "Team": "KKR",
+            "Mat": "174",
+            "Wkts": "163",
+            "Avg": "24.09",
+            "Econ": "6.69",
+            "SR": "21.5",
+            "Best": "5/19",
+            "Type": "Mystery off-spin"
         },
         "id": 37,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "KKR",
+        "player": "Sunil Narine",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Leg-spin",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Sunil Narine KKR 174 163 24.09 6.69 21.5 5/19 Mystery off-spin",
+        "document_text": "Sunil Narine from KKR has taken 163 wickets with economy 6.69. Average: 24.09. Strike Rate: 21.5. Best: 5/19."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Mystery off-spin"
+            "Player": "Harbhajan Singh",
+            "Team": "MI",
+            "Mat": "163",
+            "Wkts": "150",
+            "Avg": "26.39",
+            "Econ": "6.97",
+            "SR": "22.7",
+            "Best": "5/18",
+            "Type": "Off-spin"
         },
         "id": 38,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "MI",
+        "player": "Harbhajan Singh",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Mystery off-spin",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Harbhajan Singh MI 163 150 26.39 6.97 22.7 5/18 Off-spin",
+        "document_text": "Harbhajan Singh from MI has taken 150 wickets with economy 6.97. Average: 26.39. Strike Rate: 22.7. Best: 5/18."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Off-spin"
+            "Player": "Sandeep Sharma",
+            "Team": "PBKS",
+            "Mat": "138",
+            "Wkts": "142",
+            "Avg": "26.42",
+            "Econ": "8.11",
+            "SR": "19.5",
+            "Best": "4/21",
+            "Type": "Medium-pace"
         },
         "id": 39,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "PBKS",
+        "player": "Sandeep Sharma",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Off-spin",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Sandeep Sharma PBKS 138 142 26.42 8.11 19.5 4/21 Medium-pace",
+        "document_text": "Sandeep Sharma from PBKS has taken 142 wickets with economy 8.11. Average: 26.42. Strike Rate: 19.5. Best: 4/21."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Medium-pace"
+            "Player": "Kagiso Rabada",
+            "Team": "DC",
+            "Mat": "74",
+            "Wkts": "113",
+            "Avg": "21.74",
+            "Econ": "8.34",
+            "SR": "15.6",
+            "Best": "4/21",
+            "Type": "Fast bowling"
         },
         "id": 40,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "DC",
+        "player": "Kagiso Rabada",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Medium-pace",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Kagiso Rabada DC 74 113 21.74 8.34 15.6 4/21 Fast bowling",
+        "document_text": "Kagiso Rabada from DC has taken 113 wickets with economy 8.34. Average: 21.74. Strike Rate: 15.6. Best: 4/21."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+            "Player": "Trent Boult",
+            "Team": "RR",
+            "Mat": "78",
+            "Wkts": "105",
+            "Avg": "23.43",
+            "Econ": "8.18",
+            "SR": "17.1",
+            "Best": "4/18",
+            "Type": "Swing bowling"
         },
         "id": 41,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "RR",
+        "player": "Trent Boult",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Fast bowling",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Trent Boult RR 78 105 23.43 8.18 17.1 4/18 Swing bowling",
+        "document_text": "Trent Boult from RR has taken 105 wickets with economy 8.18. Average: 23.43. Strike Rate: 17.1. Best: 4/18."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Swing bowling"
+            "Player": "Mohammed Shami",
+            "Team": "GT",
+            "Mat": "88",
+            "Wkts": "114",
+            "Avg": "22.38",
+            "Econ": "8.02",
+            "SR": "16.7",
+            "Best": "4/16",
+            "Type": "Fast bowling"
         },
         "id": 42,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "GT",
+        "player": "Mohammed Shami",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Swing bowling",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Mohammed Shami GT 88 114 22.38 8.02 16.7 4/16 Fast bowling",
+        "document_text": "Mohammed Shami from GT has taken 114 wickets with economy 8.02. Average: 22.38. Strike Rate: 16.7. Best: 4/16."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+            "Player": "Pat Cummins",
+            "Team": "SRH",
+            "Mat": "57",
+            "Wkts": "78",
+            "Avg": "25.17",
+            "Econ": "8.45",
+            "SR": "17.8",
+            "Best": "4/14",
+            "Type": "Fast bowling"
         },
         "id": 43,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "SRH",
+        "player": "Pat Cummins",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Fast bowling",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Pat Cummins SRH 57 78 25.17 8.45 17.8 4/14 Fast bowling",
+        "document_text": "Pat Cummins from SRH has taken 78 wickets with economy 8.45. Average: 25.17. Strike Rate: 17.8. Best: 4/14."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+            "Player": "Varun Chakravarthy",
+            "Team": "KKR",
+            "Mat": "67",
+            "Wkts": "102",
+            "Avg": "22.78",
+            "Econ": "7.11",
+            "SR": "19.2",
+            "Best": "5/20",
+            "Type": "Mystery spin"
         },
         "id": 44,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "KKR",
+        "player": "Varun Chakravarthy",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Fast bowling",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Varun Chakravarthy KKR 67 102 22.78 7.11 19.2 5/20 Mystery spin",
+        "document_text": "Varun Chakravarthy from KKR has taken 102 wickets with economy 7.11. Average: 22.78. Strike Rate: 19.2. Best: 5/20."
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Mystery spin"
+            "Player": "Rashid Khan",
+            "Team": "GT",
+            "Mat": "92",
+            "Wkts": "131",
+            "Avg": "20.44",
+            "Econ": "6.68",
+            "SR": "18.3",
+            "Best": "5/17",
+            "Type": "Leg-spin"
         },
         "id": 45,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 3",
-        "team": null,
-        "player": null,
+        "team": "GT",
+        "player": "Rashid Khan",
         "venue": null,
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "bowling Mystery spin",
-        "document_text": "None from None has taken None wickets with economy None."
-    },
-    {
-        "section": "bowling",
-        "entity_type": "player",
-        "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
-        },
-        "id": 46,
-        "source": "IPL LangGraph Dataset",
-        "season": 2024,
-        "source_section": "Section 3",
-        "team": null,
-        "player": null,
-        "venue": null,
-        "captain": null,
-        "coach": null,
-        "city": null,
-        "winner": null,
-        "role": null,
-        "search_text": "bowling Leg-spin",
-        "document_text": "None from None has taken None wickets with economy None."
+        "search_text": "bowling Rashid Khan GT 92 131 20.44 6.68 18.3 5/17 Leg-spin",
+        "document_text": "Rashid Khan from GT has taken 131 wickets with economy 6.68. Average: 20.44. Strike Rate: 18.3. Best: 5/17."
     },
     {
         "section": "h2h",
@@ -1218,7 +1317,7 @@
             "High Score": "235/1 (MI)",
             "Key Factor": "Bumrah vs Dhoni"
         },
-        "id": 47,
+        "id": 46,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1246,7 +1345,7 @@
             "High Score": "213/2 (RCB)",
             "Key Factor": "Kohli vs Narine"
         },
-        "id": 48,
+        "id": 47,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1274,7 +1373,7 @@
             "High Score": "226/6 (RCB)",
             "Key Factor": "Spinners vs Power"
         },
-        "id": 49,
+        "id": 48,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1302,7 +1401,7 @@
             "High Score": "219/4 (SRH)",
             "Key Factor": "Bumrah vs Head"
         },
-        "id": 50,
+        "id": 49,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1330,7 +1429,7 @@
             "High Score": "217/5 (RR)",
             "Key Factor": "Buttler vs Rabada"
         },
-        "id": 51,
+        "id": 50,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1358,7 +1457,7 @@
             "High Score": "227/2 (SRH)",
             "Key Factor": "Gill vs Rahul"
         },
-        "id": 52,
+        "id": 51,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1386,7 +1485,7 @@
             "High Score": "232/2 (KKR)",
             "Key Factor": "Narine vs Bumrah"
         },
-        "id": 53,
+        "id": 52,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1414,7 +1513,7 @@
             "High Score": "287/3 (SRH)",
             "Key Factor": "Head vs Kohli"
         },
-        "id": 54,
+        "id": 53,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1442,7 +1541,7 @@
             "High Score": "221/3 (PBKS)",
             "Key Factor": "Dhawan vs Samson"
         },
-        "id": 55,
+        "id": 54,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1470,7 +1569,7 @@
             "High Score": "208/4 (DC)",
             "Key Factor": "Pant vs Dhoni"
         },
-        "id": 56,
+        "id": 55,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 4",
@@ -1498,7 +1597,7 @@
             "Dew Factor": "High even ing",
             "Best Strategy": "Bat first, use pace death bowling"
         },
-        "id": 57,
+        "id": 56,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1526,7 +1625,7 @@
             "Dew Factor": "Low",
             "Best Strategy": "Bowl first, spinners in overs 7-15"
         },
-        "id": 58,
+        "id": 57,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1554,7 +1653,7 @@
             "Dew Factor": "Moderate",
             "Best Strategy": "Bat first, score 180+. No safe total."
         },
-        "id": 59,
+        "id": 58,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1582,7 +1681,7 @@
             "Dew Factor": "High even ing",
             "Best Strategy": "Flexible. Spinners and pac ers both effective."
         },
-        "id": 60,
+        "id": 59,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1610,7 +1709,7 @@
             "Dew Factor": "Low",
             "Best Strategy": "Bat first. Spinners effective in secon d half."
         },
-        "id": 61,
+        "id": 60,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1638,7 +1737,7 @@
             "Dew Factor": "High",
             "Best Strategy": "Bat first. Dew ma kes chas ing very easy in 2nd."
         },
-        "id": 62,
+        "id": 61,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1666,7 +1765,7 @@
             "Dew Factor": "Low",
             "Best Strategy": "Bowl first. Spinner s domina te aftern oon gam es."
         },
-        "id": 63,
+        "id": 62,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1694,7 +1793,7 @@
             "Dew Factor": "Moderate",
             "Best Strategy": "Flexible. Fast bow lers get swing early."
         },
-        "id": 64,
+        "id": 63,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1716,7 +1815,7 @@
             "Venue": "Wankhede Stadium, Mumbai",
             "City": "Wankhede is a batter's paradise with a short square boundary (55m). The pitch has true bounce -fast bowlers hit the bat hard. In evening games, dew makes the ball skid on, heavily favouring the chasing team. Jasprit Bumrah is MI's key weapon here -his yorkers on this surface are nearly unplayable. Average first-innings score: 175. Teams that bat first win ~45% of the time."
         },
-        "id": 65,
+        "id": 64,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1738,7 +1837,7 @@
             "Venue": "MA Chidambaram, Chennai",
             "City": "Chennai's pitch is the most spin-friendly in the IPL. Slow, dry surface that breaks up progressively. Off-spinners and leg-spinners become virtually unplayable in the second innings. CSK has historically won 65% of home games here. The key skill here: playing spin under pressure. Average first-innings: 155. Bowling first wins ~60% of matches."
         },
-        "id": 66,
+        "id": 65,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1760,7 +1859,7 @@
             "Venue": "M Chinnaswamy, Bengaluru",
             "City": "Chinnaswamy is arguably the most batter-friendly ground. Short boundaries all around, flat pitch, and high altitude means the ball travels further. 200+ totals are common. The 2024 season saw multiple 220+ scores here. RCB's home advantage is significant: Kohli averages 58 at this ground. No total is ever safe here."
         },
-        "id": 67,
+        "id": 66,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1782,7 +1881,7 @@
             "Venue": "Rajiv Gandhi Intl. Stadium, Hyderabad",
             "City": "SRH's home ground became the most feared batting venue in 2024. The flat pitch combined with heavy evening dew makes chasing almost a formality in night matches. Travis Head's 191.6 SR and Abhishek Sharma's 188.3 SR are products of this ground. In 2024, SRH scored 250+ twice here. Bowling first is almost always the correct call."
         },
-        "id": 68,
+        "id": 67,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 5",
@@ -1810,7 +1909,7 @@
             "2024 Pos": "5th",
             "Titles (2019-24)": "2"
         },
-        "id": 69,
+        "id": 68,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -1838,7 +1937,7 @@
             "2024 Pos": "Runner-up",
             "Titles (2019-24)": "2"
         },
-        "id": 70,
+        "id": 69,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -1866,7 +1965,7 @@
             "2024 Pos": "Champions",
             "Titles (2019-24)": "1"
         },
-        "id": 71,
+        "id": 70,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -1894,7 +1993,7 @@
             "2024 Pos": "Champions",
             "Titles (2019-24)": "1"
         },
-        "id": 72,
+        "id": 71,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -1922,7 +2021,7 @@
             "2024 Pos": "6th",
             "Titles (2019-24)": "0"
         },
-        "id": 73,
+        "id": 72,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -1950,7 +2049,7 @@
             "2024 Pos": "Runner-up",
             "Titles (2019-24)": "0"
         },
-        "id": 74,
+        "id": 73,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -1978,7 +2077,7 @@
             "2024 Pos": "4th",
             "Titles (2019-24)": "0"
         },
-        "id": 75,
+        "id": 74,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -2006,7 +2105,7 @@
             "2024 Pos": "8th",
             "Titles (2019-24)": "1"
         },
-        "id": 76,
+        "id": 75,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -2034,7 +2133,7 @@
             "2024 Pos": "7th",
             "Titles (2019-24)": "0"
         },
-        "id": 77,
+        "id": 76,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -2062,7 +2161,7 @@
             "2024 Pos": "9th",
             "Titles (2019-24)": "0"
         },
-        "id": 78,
+        "id": 77,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 6",
@@ -2091,7 +2190,7 @@
             "Form Trend": "› Excellent",
             "Avg (Last 5)": "65.0"
         },
-        "id": 79,
+        "id": 78,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2120,7 +2219,7 @@
             "Form Trend": "fi Average",
             "Avg (Last 5)": "32.6"
         },
-        "id": 80,
+        "id": 79,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2149,7 +2248,7 @@
             "Form Trend": "› Excellent",
             "Avg (Last 5)": "59.0"
         },
-        "id": 81,
+        "id": 80,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2178,7 +2277,7 @@
             "Form Trend": "fi Mixed",
             "Avg (Last 5)": "46.6"
         },
-        "id": 82,
+        "id": 81,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2207,7 +2306,7 @@
             "Form Trend": "› Excellent",
             "Avg (Last 5)": "2.4 wkts/gam e"
         },
-        "id": 83,
+        "id": 82,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2236,7 +2335,7 @@
             "Form Trend": "fi Consistent",
             "Avg (Last 5)": "1.6 wkts/gam e"
         },
-        "id": 84,
+        "id": 83,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2265,7 +2364,7 @@
             "Form Trend": "fl Poor",
             "Avg (Last 5)": "26.0"
         },
-        "id": 85,
+        "id": 84,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2294,7 +2393,7 @@
             "Form Trend": "› Good",
             "Avg (Last 5)": "54.0"
         },
-        "id": 86,
+        "id": 85,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2323,7 +2422,7 @@
             "Form Trend": "› Excellent",
             "Avg (Last 5)": "69.0"
         },
-        "id": 87,
+        "id": 86,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2352,7 +2451,7 @@
             "Form Trend": "fi Moderate",
             "Avg (Last 5)": "40.2"
         },
-        "id": 88,
+        "id": 87,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 7",
@@ -2371,7 +2470,38 @@
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "Year"
+            "Category": "Highest Team Score",
+            "Record": "287/3",
+            "Player/Team": "SRH",
+            "Opponent": "RCB",
+            "Venue": "Uppal, Hyderabad",
+            "Year": "2024"
+        },
+        "id": 88,
+        "source": "IPL LangGraph Dataset",
+        "season": 2024,
+        "source_section": "Section 8",
+        "team": null,
+        "player": null,
+        "venue": "Uppal, Hyderabad",
+        "captain": null,
+        "coach": null,
+        "city": null,
+        "winner": null,
+        "role": null,
+        "search_text": "records Highest Team Score 287/3 SRH RCB Uppal, Hyderabad 2024",
+        "document_text": "Highest Team Score 287/3 SRH RCB Uppal, Hyderabad 2024"
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "Category": "Highest Individual Score",
+            "Record": "175* (off 66)",
+            "Player/Team": "Chris Gayle",
+            "Opponent": "PWI",
+            "Venue": "Bengaluru",
+            "Year": "2013"
         },
         "id": 89,
         "source": "IPL LangGraph Dataset",
@@ -2379,20 +2509,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Bengaluru",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records Year",
-        "document_text": "Year"
+        "search_text": "records Highest Individual Score 175* (off 66) Chris Gayle PWI Bengaluru 2013",
+        "document_text": "Highest Individual Score 175* (off 66) Chris Gayle PWI Bengaluru 2013"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2024"
+            "Category": "Most Runs -Career",
+            "Record": "7263",
+            "Player/Team": "Virat Kohli",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2008-24"
         },
         "id": 90,
         "source": "IPL LangGraph Dataset",
@@ -2400,20 +2535,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2024",
-        "document_text": "2024"
+        "search_text": "records Most Runs -Career 7263 Virat Kohli - - 2008-24",
+        "document_text": "Most Runs -Career 7263 Virat Kohli - - 2008-24"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2013"
+            "Category": "Most Wickets -Career",
+            "Record": "205",
+            "Player/Team": "Yuzvendra Chahal",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2011-24"
         },
         "id": 91,
         "source": "IPL LangGraph Dataset",
@@ -2421,20 +2561,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2013",
-        "document_text": "2013"
+        "search_text": "records Most Wickets -Career 205 Yuzvendra Chahal - - 2011-24",
+        "document_text": "Most Wickets -Career 205 Yuzvendra Chahal - - 2011-24"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+            "Category": "Most Centuries",
+            "Record": "7",
+            "Player/Team": "Virat Kohli",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2008-24"
         },
         "id": 92,
         "source": "IPL LangGraph Dataset",
@@ -2442,20 +2587,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2008-24",
-        "document_text": "2008-24"
+        "search_text": "records Most Centuries 7 Virat Kohli - - 2008-24",
+        "document_text": "Most Centuries 7 Virat Kohli - - 2008-24"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2011-24"
+            "Category": "Best Bowling Figures",
+            "Record": "6/12",
+            "Player/Team": "Alzarri Joseph",
+            "Opponent": "SRH",
+            "Venue": "Wankhede",
+            "Year": "2019"
         },
         "id": 93,
         "source": "IPL LangGraph Dataset",
@@ -2463,20 +2613,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Wankhede",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2011-24",
-        "document_text": "2011-24"
+        "search_text": "records Best Bowling Figures 6/12 Alzarri Joseph SRH Wankhede 2019",
+        "document_text": "Best Bowling Figures 6/12 Alzarri Joseph SRH Wankhede 2019"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+            "Category": "Most Sixes -Career",
+            "Record": "357",
+            "Player/Team": "Chris Gayle",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2009-22"
         },
         "id": 94,
         "source": "IPL LangGraph Dataset",
@@ -2484,20 +2639,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2008-24",
-        "document_text": "2008-24"
+        "search_text": "records Most Sixes -Career 357 Chris Gayle - - 2009-22",
+        "document_text": "Most Sixes -Career 357 Chris Gayle - - 2009-22"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2019"
+            "Category": "Fastest Fifty",
+            "Record": "14 balls",
+            "Player/Team": "KL Rahul",
+            "Opponent": "KXIP",
+            "Venue": "Dubai",
+            "Year": "2020"
         },
         "id": 95,
         "source": "IPL LangGraph Dataset",
@@ -2505,20 +2665,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Dubai",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2019",
-        "document_text": "2019"
+        "search_text": "records Fastest Fifty 14 balls KL Rahul KXIP Dubai 2020",
+        "document_text": "Fastest Fifty 14 balls KL Rahul KXIP Dubai 2020"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2009-22"
+            "Category": "Most Titles",
+            "Record": "5",
+            "Player/Team": "MI & CSK",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "Various"
         },
         "id": 96,
         "source": "IPL LangGraph Dataset",
@@ -2526,20 +2691,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2009-22",
-        "document_text": "2009-22"
+        "search_text": "records Most Titles 5 MI & CSK - - Various",
+        "document_text": "Most Titles 5 MI & CSK - - Various"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2020"
+            "Category": "Most Matches -Player",
+            "Record": "250",
+            "Player/Team": "MS Dhoni",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2008-24"
         },
         "id": 97,
         "source": "IPL LangGraph Dataset",
@@ -2547,20 +2717,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2020",
-        "document_text": "2020"
+        "search_text": "records Most Matches -Player 250 MS Dhoni - - 2008-24",
+        "document_text": "Most Matches -Player 250 MS Dhoni - - 2008-24"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "Various"
+            "Category": "Highest Chase",
+            "Record": "232/2",
+            "Player/Team": "KKR",
+            "Opponent": "RCB",
+            "Venue": "Eden Gardens",
+            "Year": "2024"
         },
         "id": 98,
         "source": "IPL LangGraph Dataset",
@@ -2568,20 +2743,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Eden Gardens",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records Various",
-        "document_text": "Various"
+        "search_text": "records Highest Chase 232/2 KKR RCB Eden Gardens 2024",
+        "document_text": "Highest Chase 232/2 KKR RCB Eden Gardens 2024"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+            "Category": "Most 4s -Innings",
+            "Record": "22",
+            "Player/Team": "AB de Villiers",
+            "Opponent": "MI",
+            "Venue": "Bengaluru",
+            "Year": "2015"
         },
         "id": 99,
         "source": "IPL LangGraph Dataset",
@@ -2589,20 +2769,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Bengaluru",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2008-24",
-        "document_text": "2008-24"
+        "search_text": "records Most 4s -Innings 22 AB de Villiers MI Bengaluru 2015",
+        "document_text": "Most 4s -Innings 22 AB de Villiers MI Bengaluru 2015"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2024"
+            "Category": "Highest Partnership",
+            "Record": "229* (2nd wkt)",
+            "Player/Team": "RCB",
+            "Opponent": "GT",
+            "Venue": "Bengaluru",
+            "Year": "2016"
         },
         "id": 100,
         "source": "IPL LangGraph Dataset",
@@ -2610,20 +2795,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Bengaluru",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2024",
-        "document_text": "2024"
+        "search_text": "records Highest Partnership 229* (2nd wkt) RCB GT Bengaluru 2016",
+        "document_text": "Highest Partnership 229* (2nd wkt) RCB GT Bengaluru 2016"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2015"
+            "Category": "Most Runs -Single Season",
+            "Record": "973",
+            "Player/Team": "Virat Kohli",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2016"
         },
         "id": 101,
         "source": "IPL LangGraph Dataset",
@@ -2631,20 +2821,25 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "-",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2015",
-        "document_text": "2015"
+        "search_text": "records Most Runs -Single Season 973 Virat Kohli - - 2016",
+        "document_text": "Most Runs -Single Season 973 Virat Kohli - - 2016"
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2016"
+            "Category": "Lowest Total",
+            "Record": "49 all out",
+            "Player/Team": "RCB",
+            "Opponent": "KKR",
+            "Venue": "Eden Gardens",
+            "Year": "2017"
         },
         "id": 102,
         "source": "IPL LangGraph Dataset",
@@ -2652,56 +2847,14 @@
         "source_section": "Section 8",
         "team": null,
         "player": null,
-        "venue": null,
+        "venue": "Eden Gardens",
         "captain": null,
         "coach": null,
         "city": null,
         "winner": null,
         "role": null,
-        "search_text": "records 2016",
-        "document_text": "2016"
-    },
-    {
-        "section": "records",
-        "entity_type": "record",
-        "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2016"
-        },
-        "id": 103,
-        "source": "IPL LangGraph Dataset",
-        "season": 2024,
-        "source_section": "Section 8",
-        "team": null,
-        "player": null,
-        "venue": null,
-        "captain": null,
-        "coach": null,
-        "city": null,
-        "winner": null,
-        "role": null,
-        "search_text": "records 2016",
-        "document_text": "2016"
-    },
-    {
-        "section": "records",
-        "entity_type": "record",
-        "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2017"
-        },
-        "id": 104,
-        "source": "IPL LangGraph Dataset",
-        "season": 2024,
-        "source_section": "Section 8",
-        "team": null,
-        "player": null,
-        "venue": null,
-        "captain": null,
-        "coach": null,
-        "city": null,
-        "winner": null,
-        "role": null,
-        "search_text": "records 2017",
-        "document_text": "2017"
+        "search_text": "records Lowest Total 49 all out RCB KKR Eden Gardens 2017",
+        "document_text": "Lowest Total 49 all out RCB KKR Eden Gardens 2017"
     },
     {
         "section": "conflict",
@@ -2713,7 +2866,7 @@
             "Conflict Type": "Value mismatch",
             "Expected RAG Behaviour": "Flag conflict, cite both, suggest verification"
         },
-        "id": 105,
+        "id": 103,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 11",
@@ -2738,7 +2891,7 @@
             "Conflict Type": "Value mismatch (retired data?)",
             "Expected RAG Behaviour": "Flag -secondary may be older dataset"
         },
-        "id": 106,
+        "id": 104,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 11",
@@ -2763,7 +2916,7 @@
             "Conflict Type": "Count mismatch",
             "Expected RAG Behaviour": "Flag conflict, both sources cited"
         },
-        "id": 107,
+        "id": 105,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 11",
@@ -2788,7 +2941,7 @@
             "Conflict Type": "Different records by year",
             "Expected RAG Behaviour": "Clarify: 287/3 is current record; 263/5 was previous"
         },
-        "id": 108,
+        "id": 106,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 11",
@@ -2813,7 +2966,7 @@
             "Conflict Type": "Count mismatch",
             "Expected RAG Behaviour": "Flag -250 is from official IPL; secondary is incomplete"
         },
-        "id": 109,
+        "id": 107,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 11",
@@ -2838,7 +2991,7 @@
             "Conflict Type": "Different records",
             "Expected RAG Behaviour": "6/12 is correct; 6/14 was old record. Explain superseded."
         },
-        "id": 110,
+        "id": 108,
         "source": "IPL LangGraph Dataset",
         "season": 2024,
         "source_section": "Section 11",

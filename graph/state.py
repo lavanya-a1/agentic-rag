@@ -6,6 +6,7 @@ class IPLState(TypedDict, total=False):
     query_type: str
     entities: Dict[str, Any]
     batting_context: List[Dict[str, Any]]
+    bowling_context: List[Dict[str, Any]]
     final_answer: str
 
 
@@ -15,5 +16,6 @@ def make_initial_state(query: str) -> IPLState:
         query_type="",
         entities={},
         batting_context=[],
+        bowling_context=[],
         final_answer="",
     )

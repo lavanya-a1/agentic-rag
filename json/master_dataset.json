@@ -453,112 +453,225 @@
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Type"
+            "Player": "Yuzvendra Chahal",
+            "Team": "RR",
+            "Mat": "155",
+            "Wkts": "205",
+            "Avg": "22.64",
+            "Econ": "7.63",
+            "SR": "17.8",
+            "Best": "5/40",
+            "Type": "Leg-spin"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "DJ Bravo",
+            "Team": "CSK",
+            "Mat": "161",
+            "Wkts": "183",
+            "Avg": "25.05",
+            "Econ": "8.43",
+            "SR": "17.7",
+            "Best": "4/22",
+            "Type": "Medium-fast"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Medium-fast"
+            "Player": "Lasith Malinga",
+            "Team": "MI",
+            "Mat": "122",
+            "Wkts": "170",
+            "Avg": "19.80",
+            "Econ": "7.14",
+            "SR": "16.6",
+            "Best": "5/13",
+            "Type": "Yorker specialist"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Yorker specialist"
+            "Player": "Piyush Chawla",
+            "Team": "CSK",
+            "Mat": "175",
+            "Wkts": "175",
+            "Avg": "25.58",
+            "Econ": "7.78",
+            "SR": "19.7",
+            "Best": "4/17",
+            "Type": "Leg-spin"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "Jasprit Bumrah",
+            "Team": "MI",
+            "Mat": "135",
+            "Wkts": "170",
+            "Avg": "22.50",
+            "Econ": "7.39",
+            "SR": "18.2",
+            "Best": "5/10",
+            "Type": "Pace/Yorker"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Pace/Yorker"
+            "Player": "Amit Mishra",
+            "Team": "DC",
+            "Mat": "154",
+            "Wkts": "166",
+            "Avg": "24.34",
+            "Econ": "7.36",
+            "SR": "19.8",
+            "Best": "5/17",
+            "Type": "Leg-spin"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "Sunil Narine",
+            "Team": "KKR",
+            "Mat": "174",
+            "Wkts": "163",
+            "Avg": "24.09",
+            "Econ": "6.69",
+            "SR": "21.5",
+            "Best": "5/19",
+            "Type": "Mystery off-spin"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Mystery off-spin"
+            "Player": "Harbhajan Singh",
+            "Team": "MI",
+            "Mat": "163",
+            "Wkts": "150",
+            "Avg": "26.39",
+            "Econ": "6.97",
+            "SR": "22.7",
+            "Best": "5/18",
+            "Type": "Off-spin"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Off-spin"
+            "Player": "Sandeep Sharma",
+            "Team": "PBKS",
+            "Mat": "138",
+            "Wkts": "142",
+            "Avg": "26.42",
+            "Econ": "8.11",
+            "SR": "19.5",
+            "Best": "4/21",
+            "Type": "Medium-pace"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Medium-pace"
+            "Player": "Kagiso Rabada",
+            "Team": "DC",
+            "Mat": "74",
+            "Wkts": "113",
+            "Avg": "21.74",
+            "Econ": "8.34",
+            "SR": "15.6",
+            "Best": "4/21",
+            "Type": "Fast bowling"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+            "Player": "Trent Boult",
+            "Team": "RR",
+            "Mat": "78",
+            "Wkts": "105",
+            "Avg": "23.43",
+            "Econ": "8.18",
+            "SR": "17.1",
+            "Best": "4/18",
+            "Type": "Swing bowling"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Swing bowling"
+            "Player": "Mohammed Shami",
+            "Team": "GT",
+            "Mat": "88",
+            "Wkts": "114",
+            "Avg": "22.38",
+            "Econ": "8.02",
+            "SR": "16.7",
+            "Best": "4/16",
+            "Type": "Fast bowling"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+            "Player": "Pat Cummins",
+            "Team": "SRH",
+            "Mat": "57",
+            "Wkts": "78",
+            "Avg": "25.17",
+            "Econ": "8.45",
+            "SR": "17.8",
+            "Best": "4/14",
+            "Type": "Fast bowling"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+            "Player": "Varun Chakravarthy",
+            "Team": "KKR",
+            "Mat": "67",
+            "Wkts": "102",
+            "Avg": "22.78",
+            "Econ": "7.11",
+            "SR": "19.2",
+            "Best": "5/20",
+            "Type": "Mystery spin"
         }
     },
     {
         "section": "bowling",
         "entity_type": "player",
         "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Mystery spin"
-        }
-    },
-    {
-        "section": "bowling",
-        "entity_type": "player",
-        "data": {
-            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+            "Player": "Rashid Khan",
+            "Team": "GT",
+            "Mat": "92",
+            "Wkts": "131",
+            "Avg": "20.44",
+            "Econ": "6.68",
+            "SR": "18.3",
+            "Best": "5/17",
+            "Type": "Leg-spin"
         }
     },
     {
@@ -1139,112 +1252,180 @@
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "Year"
+            "Category": "Highest Team Score",
+            "Record": "287/3",
+            "Player/Team": "SRH",
+            "Opponent": "RCB",
+            "Venue": "Uppal, Hyderabad",
+            "Year": "2024"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2024"
+            "Category": "Highest Individual Score",
+            "Record": "175* (off 66)",
+            "Player/Team": "Chris Gayle",
+            "Opponent": "PWI",
+            "Venue": "Bengaluru",
+            "Year": "2013"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2013"
+            "Category": "Most Runs -Career",
+            "Record": "7263",
+            "Player/Team": "Virat Kohli",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2008-24"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+            "Category": "Most Wickets -Career",
+            "Record": "205",
+            "Player/Team": "Yuzvendra Chahal",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2011-24"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2011-24"
+            "Category": "Most Centuries",
+            "Record": "7",
+            "Player/Team": "Virat Kohli",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2008-24"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+            "Category": "Best Bowling Figures",
+            "Record": "6/12",
+            "Player/Team": "Alzarri Joseph",
+            "Opponent": "SRH",
+            "Venue": "Wankhede",
+            "Year": "2019"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2019"
+            "Category": "Most Sixes -Career",
+            "Record": "357",
+            "Player/Team": "Chris Gayle",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2009-22"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2009-22"
+            "Category": "Fastest Fifty",
+            "Record": "14 balls",
+            "Player/Team": "KL Rahul",
+            "Opponent": "KXIP",
+            "Venue": "Dubai",
+            "Year": "2020"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2020"
+            "Category": "Most Titles",
+            "Record": "5",
+            "Player/Team": "MI & CSK",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "Various"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "Various"
+            "Category": "Most Matches -Player",
+            "Record": "250",
+            "Player/Team": "MS Dhoni",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2008-24"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+            "Category": "Highest Chase",
+            "Record": "232/2",
+            "Player/Team": "KKR",
+            "Opponent": "RCB",
+            "Venue": "Eden Gardens",
+            "Year": "2024"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2024"
+            "Category": "Most 4s -Innings",
+            "Record": "22",
+            "Player/Team": "AB de Villiers",
+            "Opponent": "MI",
+            "Venue": "Bengaluru",
+            "Year": "2015"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2015"
+            "Category": "Highest Partnership",
+            "Record": "229* (2nd wkt)",
+            "Player/Team": "RCB",
+            "Opponent": "GT",
+            "Venue": "Bengaluru",
+            "Year": "2016"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2016"
+            "Category": "Most Runs -Single Season",
+            "Record": "973",
+            "Player/Team": "Virat Kohli",
+            "Opponent": "-",
+            "Venue": "-",
+            "Year": "2016"
         }
     },
     {
         "section": "records",
         "entity_type": "record",
         "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2016"
-        }
-    },
-    {
-        "section": "records",
-        "entity_type": "record",
-        "data": {
-            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2017"
+            "Category": "Lowest Total",
+            "Record": "49 all out",
+            "Player/Team": "RCB",
+            "Opponent": "KKR",
+            "Venue": "Eden Gardens",
+            "Year": "2017"
         }
     },
     {

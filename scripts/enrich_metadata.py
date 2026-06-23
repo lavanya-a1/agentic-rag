@@ -64,10 +64,17 @@ def build_document(record):
 
     elif section == "bowling":
 
+        # Support multiple possible header names produced by the markdown parser
+        wickets = data.get('Wickets') or data.get('Wkts') or data.get('Wickets ') or None
+        econ = data.get('Economy') or data.get('Econ') or None
+        avg = data.get('Avg') or data.get('Average') or None
+        sr = data.get('SR') or data.get('Strike Rate') or None
+        best = data.get('Best') or data.get('Best Figures') or None
+
         return (
             f"{data.get('Player')} from {data.get('Team')} "
-            f"has taken {data.get('Wickets')} wickets "
-            f"with economy {data.get('Economy')}."
+            f"has taken {wickets} wickets with economy {econ}. "
+            f"Average: {avg}. Strike Rate: {sr}. Best: {best}."
         )
 
     else:

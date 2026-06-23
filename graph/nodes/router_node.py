@@ -21,13 +21,53 @@ class RouterNode:
     def run(self, state: IPLState) -> IPLState:
         q = state.get("user_query", "").lower()
 
-        # Basic heuristic classification (keeps previous behaviour)
+        # Domain-specific keywords
+        batting_keywords = [
+            "run",
+            "runs",
+            "average",
+            "strike rate",
+            "strike-rate",
+            "fifty",
+            "hundred",
+            "fifties",
+            "hundreds",
+            "batting",
+            "score",
+        ]
+
+        bowling_keywords = [
+            "wicket",
+            "wickets",
+            "economy",
+            "economy rate",
+            "bowling average",
+            "bowling",
+            "figures",
+            "best bowling",
+            "strike rate",
+            "strike-rate",
+            "overs",
+            "maiden",
+        ]
+
+        # Classification precedence: explicit compare/aggregation/reasoning, then domain
         if any(w in q for w in self.AGGREGATION_WORDS):
             qtype = "aggregation"
         elif " vs " in q or "compare" in q:
-            qtype = "comparison"
+            # Comparison may be batting or bowling depending on keywords
+            if any(w in q for w in batting_keywords):
+                qtype = "batting_comparison"
+            elif any(w in q for w in bowling_keywords):
+                qtype = "bowling_comparison"
+            else:
+                qtype = "comparison"
         elif any(w in q for w in ["why", "explain", "reason", "better", "stronger"]):
             qtype = "reasoning"
+        elif any(w in q for w in batting_keywords):
+            qtype = "batting"
+        elif any(w in q for w in bowling_keywords):
+            qtype = "bowling"
         else:
             qtype = "retrieval"
 

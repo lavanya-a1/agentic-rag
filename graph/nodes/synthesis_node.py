@@ -49,12 +49,24 @@ Answer:
 chain = prompt | llm
 
 
+
 class SynthesisNode:
-    """Synthesizes an answer strictly from the retrieved batting_context and adds final_answer to state."""
+    """Synthesizes an answer from the retrieved batting_context or bowling_context and adds final_answer to state."""
 
     def run(self, state: IPLState) -> IPLState:
 
-        docs: List[dict] = state.get("batting_context") or []
+        qtype = state.get("query_type", "") or ""
+
+        # Select context based on query_type, prefer explicit domain types
+        docs: List[dict] = []
+
+        if "bat" in qtype:
+            docs = state.get("batting_context") or []
+        elif "bowl" in qtype:
+            docs = state.get("bowling_context") or []
+        else:
+            # fallback: prefer batting then bowling
+            docs = state.get("batting_context") or state.get("bowling_context") or []
 
         if not docs:
             state["final_answer"] = "I could not find the answer in the dataset."

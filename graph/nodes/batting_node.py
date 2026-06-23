@@ -16,10 +16,12 @@ class BattingStatsNode:
         query = state.get("user_query", "")
 
         # Prefer a rewritten, retrieval-friendly query
-        try:
-            rewritten = query_rewriter.rewrite_query(query)
-        except Exception:
-            rewritten = query
+        #try:
+        #    rewritten = query_rewriter.rewrite_query(query)
+        #except Exception:
+        #    rewritten = query
+
+        rewritten = query
 
         # Use existing hybrid search
         results = hybrid_search(rewritten, top_k=self.top_k)

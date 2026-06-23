@@ -1,4 +1,17 @@
 .env
 .venv/
 chroma_db/
-__pycache__/
+graph/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+vectorstore/
+# or narrow to the chroma DB folder:
+# vectorstore/chroma_db/
+json/master_dataset.json
+json/master_dataset_enriched.json
+markdown/*.md
+data/*.pdf
+.DS_Store
