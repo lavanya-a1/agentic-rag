@@ -1,0 +1,11 @@
+#(data extraction)
+pdfplumber
+pandas
+docling
+markdown-it-py
+sentence-transformers 
+chromadb
+langchain 
+langchain-groq 
+python-dotenv
+rank-bm25

@@ -1,0 +1,1316 @@
+[
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Mumbai Indians",
+            "Short": "MI",
+            "Home Venue": "Wankhede Stadium, Mumbai",
+            "Captain": "Hardik Pandya",
+            "Coach": "Mark Boucher",
+            "Titles": "5",
+            "2024 Pos": "5th"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Chennai Super Kings",
+            "Short": "CSK",
+            "Home Venue": "MA Chidambaram Stadium, Chennai",
+            "Captain": "Ruturaj Gaikwad",
+            "Coach": "Stephen Fleming",
+            "Titles": "5",
+            "2024 Pos": "Runner-up"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Royal Challengers Bengaluru",
+            "Short": "RCB",
+            "Home Venue": "M Chinnaswamy Stadium, Bengaluru",
+            "Captain": "Faf du Plessis",
+            "Coach": "Andy Flower",
+            "Titles": "3",
+            "2024 Pos": "Champions"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Kolkata Knight Riders",
+            "Short": "KKR",
+            "Home Venue": "Eden Gardens, Kolkata",
+            "Captain": "Shreyas Iyer",
+            "Coach": "Chandrakant Pandit",
+            "Titles": "3",
+            "2024 Pos": "Champions"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Delhi Capitals",
+            "Short": "DC",
+            "Home Venue": "Arun Jaitley Stadium, Delhi",
+            "Captain": "Rishabh Pant",
+            "Coach": "Ricky Ponting",
+            "Titles": "0",
+            "2024 Pos": "6th"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Punjab Kings",
+            "Short": "PBKS",
+            "Home Venue": "IS Bindra Stadium, Mohali",
+            "Captain": "Shikhar Dhawan",
+            "Coach": "Trevor Bayliss",
+            "Titles": "0",
+            "2024 Pos": "9th"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Rajasthan Royals",
+            "Short": "RR",
+            "Home Venue": "Sawai Mansingh Stadium, Jaipur",
+            "Captain": "Sanju Samson",
+            "Coach": "Kumar Sangakkara",
+            "Titles": "2",
+            "2024 Pos": "Runner-up"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Sunrisers Hyderabad",
+            "Short": "SRH",
+            "Home Venue": "Rajiv Gandhi Intl. Stadium, Hyd",
+            "Captain": "Pat Cummins",
+            "Coach": "Daniel Vettori",
+            "Titles": "1",
+            "2024 Pos": "4th"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Lucknow Super Giants",
+            "Short": "LSG",
+            "Home Venue": "BRSABV Ekana Stadium, Lucknow",
+            "Captain": "KL Rahul",
+            "Coach": "Justin Langer",
+            "Titles": "0",
+            "2024 Pos": "7th"
+        }
+    },
+    {
+        "section": "team",
+        "entity_type": "team",
+        "data": {
+            "Team": "Gujarat Titans",
+            "Short": "GT",
+            "Home Venue": "Narendra Modi Stadium, Ahmedabad",
+            "Captain": "Shubman Gill",
+            "Coach": "Ashish Nehra",
+            "Titles": "2",
+            "2024 Pos": "8th"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Virat Kohli",
+            "Team": "RCB",
+            "Mat": "237",
+            "Runs": "7263",
+            "Avg": "37.17",
+            "SR": "130.0",
+            "100s": "7",
+            "50s": "50",
+            "HS": "113",
+            "Role": "Top-order bat"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Rohit Sharma",
+            "Team": "MI",
+            "Mat": "243",
+            "Runs": "6211",
+            "Avg": "29.57",
+            "SR": "130.5",
+            "100s": "1",
+            "50s": "40",
+            "HS": "109*",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Shubman Gill",
+            "Team": "GT",
+            "Mat": "98",
+            "Runs": "3196",
+            "Avg": "42.61",
+            "SR": "148.7",
+            "100s": "3",
+            "50s": "24",
+            "HS": "129",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Ruturaj Gaikwad",
+            "Team": "CSK",
+            "Mat": "87",
+            "Runs": "2835",
+            "Avg": "38.83",
+            "SR": "136.8",
+            "100s": "2",
+            "50s": "19",
+            "HS": "101*",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Sanju Samson",
+            "Team": "RR",
+            "Mat": "171",
+            "Runs": "4410",
+            "Avg": "29.86",
+            "SR": "140.5",
+            "100s": "4",
+            "50s": "28",
+            "HS": "119",
+            "Role": "WK-Bat"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "KL Rahul",
+            "Team": "LSG",
+            "Mat": "115",
+            "Runs": "4163",
+            "Avg": "47.30",
+            "SR": "134.3",
+            "100s": "4",
+            "50s": "33",
+            "HS": "132*",
+            "Role": "Opener/WK"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Shreyas Iyer",
+            "Team": "KKR",
+            "Mat": "115",
+            "Runs": "3122",
+            "Avg": "33.57",
+            "SR": "127.8",
+            "100s": "1",
+            "50s": "25",
+            "HS": "96",
+            "Role": "Middle-order"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Rishabh Pant",
+            "Team": "DC",
+            "Mat": "111",
+            "Runs": "3284",
+            "Avg": "35.31",
+            "SR": "148.3",
+            "100s": "0",
+            "50s": "18",
+            "HS": "128*",
+            "Role": "WK-Bat"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Hardik Pandya",
+            "Team": "MI",
+            "Mat": "133",
+            "Runs": "2754",
+            "Avg": "30.60",
+            "SR": "145.5",
+            "100s": "0",
+            "50s": "15",
+            "HS": "91*",
+            "Role": "All-rounder"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Suryakumar Yadav",
+            "Team": "MI",
+            "Mat": "148",
+            "Runs": "3225",
+            "Avg": "32.57",
+            "SR": "161.7",
+            "100s": "0",
+            "50s": "23",
+            "HS": "103",
+            "Role": "Middle-order"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "David Warner",
+            "Team": "DC",
+            "Mat": "184",
+            "Runs": "6565",
+            "Avg": "41.42",
+            "SR": "139.9",
+            "100s": "4",
+            "50s": "59",
+            "HS": "126",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Jos Buttler",
+            "Team": "RR",
+            "Mat": "89",
+            "Runs": "3422",
+            "Avg": "46.24",
+            "SR": "149.2",
+            "100s": "5",
+            "50s": "21",
+            "HS": "124",
+            "Role": "Opener/WK"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Faf du Plessis",
+            "Team": "RCB",
+            "Mat": "121",
+            "Runs": "3779",
+            "Avg": "38.56",
+            "SR": "134.2",
+            "100s": "2",
+            "50s": "30",
+            "HS": "96",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Travis Head",
+            "Team": "SRH",
+            "Mat": "21",
+            "Runs": "872",
+            "Avg": "43.60",
+            "SR": "191.6",
+            "100s": "1",
+            "50s": "6",
+            "HS": "102",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Abhishek Sharma",
+            "Team": "SRH",
+            "Mat": "40",
+            "Runs": "1254",
+            "Avg": "33.78",
+            "SR": "188.3",
+            "100s": "1",
+            "50s": "7",
+            "HS": "135*",
+            "Role": "Opener"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "MS Dhoni",
+            "Team": "CSK",
+            "Mat": "250",
+            "Runs": "5243",
+            "Avg": "39.42",
+            "SR": "135.9",
+            "100s": "0",
+            "50s": "24",
+            "HS": "84*",
+            "Role": "WK-Finisher"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "AB de Villiers",
+            "Team": "RCB",
+            "Mat": "184",
+            "Runs": "5162",
+            "Avg": "39.70",
+            "SR": "151.7",
+            "100s": "3",
+            "50s": "38",
+            "HS": "133*",
+            "Role": "Middle-order"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Ishan Kishan",
+            "Team": "MI",
+            "Mat": "105",
+            "Runs": "2644",
+            "Avg": "27.28",
+            "SR": "136.2",
+            "100s": "1",
+            "50s": "15",
+            "HS": "99",
+            "Role": "Opener/WK"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Quinton de Kock",
+            "Team": "LSG",
+            "Mat": "78",
+            "Runs": "2516",
+            "Avg": "35.43",
+            "SR": "138.9",
+            "100s": "1",
+            "50s": "18",
+            "HS": "140*",
+            "Role": "Opener/WK"
+        }
+    },
+    {
+        "section": "batting",
+        "entity_type": "player",
+        "data": {
+            "Player": "Heinrich Klaasen",
+            "Team": "SRH",
+            "Mat": "54",
+            "Runs": "1892",
+            "Avg": "43.95",
+            "SR": "162.8",
+            "100s": "1",
+            "50s": "13",
+            "HS": "104",
+            "Role": "Middle-order"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Type"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Medium-fast"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Yorker specialist"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Pace/Yorker"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Mystery off-spin"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Off-spin"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Medium-pace"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Swing bowling"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Fast bowling"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Mystery spin"
+        }
+    },
+    {
+        "section": "bowling",
+        "entity_type": "player",
+        "data": {
+            "n LangGraph Node: BowlingStatsNode -Handles wickets, economy, bowling average, best figures.": "Leg-spin"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "MI vs CSK",
+            "Total Matches": "35",
+            "Team 1 Wins": "20",
+            "Team 2 Wins": "14",
+            "Tied/N R": "1",
+            "Last 5 (fi winner)": "MI,CSK,MI,CSK,MI",
+            "High Score": "235/1 (MI)",
+            "Key Factor": "Bumrah vs Dhoni"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "RCB vs KKR",
+            "Total Matches": "32",
+            "Team 1 Wins": "14",
+            "Team 2 Wins": "18",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "KKR,RCB,KKR,KKR,RCB",
+            "High Score": "213/2 (RCB)",
+            "Key Factor": "Kohli vs Narine"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "CSK vs RCB",
+            "Total Matches": "30",
+            "Team 1 Wins": "22",
+            "Team 2 Wins": "8",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "CSK,CSK,RCB,CSK,RCB",
+            "High Score": "226/6 (RCB)",
+            "Key Factor": "Spinners vs Power"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "MI vs SRH",
+            "Total Matches": "28",
+            "Team 1 Wins": "16",
+            "Team 2 Wins": "12",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "SRH,MI,SRH,MI,SRH",
+            "High Score": "219/4 (SRH)",
+            "Key Factor": "Bumrah vs Head"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "RR vs DC",
+            "Total Matches": "26",
+            "Team 1 Wins": "14",
+            "Team 2 Wins": "12",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "RR,DC,RR,RR,DC",
+            "High Score": "217/5 (RR)",
+            "Key Factor": "Buttler vs Rabada"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "GT vs LSG",
+            "Total Matches": "8",
+            "Team 1 Wins": "5",
+            "Team 2 Wins": "3",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "GT,LSG,GT,GT,LSG",
+            "High Score": "227/2 (SRH)",
+            "Key Factor": "Gill vs Rahul"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "KKR vs MI",
+            "Total Matches": "34",
+            "Team 1 Wins": "17",
+            "Team 2 Wins": "17",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "MI,KKR,KKR,MI,KKR",
+            "High Score": "232/2 (KKR)",
+            "Key Factor": "Narine vs Bumrah"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "SRH vs RCB",
+            "Total Matches": "22",
+            "Team 1 Wins": "11",
+            "Team 2 Wins": "11",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "SRH,RCB,SRH,RCB,SRH",
+            "High Score": "287/3 (SRH)",
+            "Key Factor": "Head vs Kohli"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "PBKS vs RR",
+            "Total Matches": "28",
+            "Team 1 Wins": "14",
+            "Team 2 Wins": "14",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "RR,PBKS,RR,RR,PBKS",
+            "High Score": "221/3 (PBKS)",
+            "Key Factor": "Dhawan vs Samson"
+        }
+    },
+    {
+        "section": "h2h",
+        "entity_type": "matchup",
+        "data": {
+            "Matchup": "DC vs CSK",
+            "Total Matches": "30",
+            "Team 1 Wins": "14",
+            "Team 2 Wins": "16",
+            "Tied/N R": "0",
+            "Last 5 (fi winner)": "CSK,DC,CSK,CSK,DC",
+            "High Score": "208/4 (DC)",
+            "Key Factor": "Pant vs Dhoni"
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Wankhede Stadium",
+            "City": "Mumbai",
+            "Capacity": "33,108",
+            "Pitch Type": "Flat, true bounce",
+            "Avg 1st Innings": "175",
+            "Batting/Bowli ng": "Batting-friendl y",
+            "Dew Factor": "High even ing",
+            "Best Strategy": "Bat first, use pace death bowling"
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "MA Chidambaram Stadium",
+            "City": "Chennai",
+            "Capacity": "50,000",
+            "Pitch Type": "Slow, turning",
+            "Avg 1st Innings": "155",
+            "Batting/Bowli ng": "Bowling-friend ly",
+            "Dew Factor": "Low",
+            "Best Strategy": "Bowl first, spinners in overs 7-15"
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "M Chinnaswamy Stadium",
+            "City": "Bengaluru",
+            "Capacity": "35,000",
+            "Pitch Type": "Flat, short boundary",
+            "Avg 1st Innings": "185",
+            "Batting/Bowli ng": "Very bat-frien dly",
+            "Dew Factor": "Moderate",
+            "Best Strategy": "Bat first, score 180+. No safe total."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Eden Gardens",
+            "City": "Kolkata",
+            "Capacity": "66,000",
+            "Pitch Type": "Good pace & bounce",
+            "Avg 1st Innings": "165",
+            "Batting/Bowli ng": "Balanced",
+            "Dew Factor": "High even ing",
+            "Best Strategy": "Flexible. Spinners and pac ers both effective."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Narendra Modi Stadium",
+            "City": "Ahmedabad",
+            "Capacity": "132,000",
+            "Pitch Type": "Flat, big ground",
+            "Avg 1st Innings": "170",
+            "Batting/Bowli ng": "Slightly bat",
+            "Dew Factor": "Low",
+            "Best Strategy": "Bat first. Spinners effective in secon d half."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Rajiv Gandhi Intl. Stadium",
+            "City": "Hyderabad",
+            "Capacity": "55,000",
+            "Pitch Type": "Flat, bouncy",
+            "Avg 1st Innings": "178",
+            "Batting/Bowli ng": "Batting-friendl y",
+            "Dew Factor": "High",
+            "Best Strategy": "Bat first. Dew ma kes chas ing very easy in 2nd."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Sawai Mansingh Stadium",
+            "City": "Jaipur",
+            "Capacity": "23,000",
+            "Pitch Type": "Slow, low",
+            "Avg 1st Innings": "158",
+            "Batting/Bowli ng": "Bowling-friend ly",
+            "Dew Factor": "Low",
+            "Best Strategy": "Bowl first. Spinner s domina te aftern oon gam es."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "IS Bindra Stadium",
+            "City": "Mohali",
+            "Capacity": "26,950",
+            "Pitch Type": "Good carry, seam",
+            "Avg 1st Innings": "168",
+            "Batting/Bowli ng": "Balanced",
+            "Dew Factor": "Moderate",
+            "Best Strategy": "Flexible. Fast bow lers get swing early."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Wankhede Stadium, Mumbai",
+            "City": "Wankhede is a batter's paradise with a short square boundary (55m). The pitch has true bounce -fast bowlers hit the bat hard. In evening games, dew makes the ball skid on, heavily favouring the chasing team. Jasprit Bumrah is MI's key weapon here -his yorkers on this surface are nearly unplayable. Average first-innings score: 175. Teams that bat first win ~45% of the time."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "MA Chidambaram, Chennai",
+            "City": "Chennai's pitch is the most spin-friendly in the IPL. Slow, dry surface that breaks up progressively. Off-spinners and leg-spinners become virtually unplayable in the second innings. CSK has historically won 65% of home games here. The key skill here: playing spin under pressure. Average first-innings: 155. Bowling first wins ~60% of matches."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "M Chinnaswamy, Bengaluru",
+            "City": "Chinnaswamy is arguably the most batter-friendly ground. Short boundaries all around, flat pitch, and high altitude means the ball travels further. 200+ totals are common. The 2024 season saw multiple 220+ scores here. RCB's home advantage is significant: Kohli averages 58 at this ground. No total is ever safe here."
+        }
+    },
+    {
+        "section": "venue",
+        "entity_type": "venue",
+        "data": {
+            "Venue": "Rajiv Gandhi Intl. Stadium, Hyderabad",
+            "City": "SRH's home ground became the most feared batting venue in 2024. The flat pitch combined with heavy evening dew makes chasing almost a formality in night matches. Travis Head's 191.6 SR and Abhishek Sharma's 188.3 SR are products of this ground. In 2024, SRH scored 250+ twice here. Bowling first is almost always the correct call."
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "MI",
+            "2019 Pos": "Champions",
+            "2020 Pos": "Champions",
+            "2021 Pos": "5th",
+            "2022 Pos": "5th",
+            "2023 Pos": "5th",
+            "2024 Pos": "5th",
+            "Titles (2019-24)": "2"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "CSK",
+            "2019 Pos": "Runner-up",
+            "2020 Pos": "Runner-up",
+            "2021 Pos": "Champions",
+            "2022 Pos": "9th",
+            "2023 Pos": "Champions",
+            "2024 Pos": "Runner-up",
+            "Titles (2019-24)": "2"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "KKR",
+            "2019 Pos": "5th",
+            "2020 Pos": "6th",
+            "2021 Pos": "2nd",
+            "2022 Pos": "7th",
+            "2023 Pos": "4th",
+            "2024 Pos": "Champions",
+            "Titles (2019-24)": "1"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "RCB",
+            "2019 Pos": "8th",
+            "2020 Pos": "4th",
+            "2021 Pos": "Runner-up",
+            "2022 Pos": "8th",
+            "2023 Pos": "2nd",
+            "2024 Pos": "Champions",
+            "Titles (2019-24)": "1"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "DC",
+            "2019 Pos": "3rd",
+            "2020 Pos": "Runner-up",
+            "2021 Pos": "3rd",
+            "2022 Pos": "4th",
+            "2023 Pos": "6th",
+            "2024 Pos": "6th",
+            "Titles (2019-24)": "0"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "RR",
+            "2019 Pos": "7th",
+            "2020 Pos": "8th",
+            "2021 Pos": "DNS",
+            "2022 Pos": "Runner-up",
+            "2023 Pos": "Runner-up",
+            "2024 Pos": "Runner-up",
+            "Titles (2019-24)": "0"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "SRH",
+            "2019 Pos": "6th",
+            "2020 Pos": "3rd",
+            "2021 Pos": "DNS",
+            "2022 Pos": "8th",
+            "2023 Pos": "8th",
+            "2024 Pos": "4th",
+            "Titles (2019-24)": "0"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "GT",
+            "2019 Pos": "DNS",
+            "2020 Pos": "DNS",
+            "2021 Pos": "DNS",
+            "2022 Pos": "Champions",
+            "2023 Pos": "Runner-up",
+            "2024 Pos": "8th",
+            "Titles (2019-24)": "1"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "LSG",
+            "2019 Pos": "DNS",
+            "2020 Pos": "DNS",
+            "2021 Pos": "DNS",
+            "2022 Pos": "3rd",
+            "2023 Pos": "3rd",
+            "2024 Pos": "7th",
+            "Titles (2019-24)": "0"
+        }
+    },
+    {
+        "section": "trend",
+        "entity_type": "team",
+        "data": {
+            "Team": "PBKS",
+            "2019 Pos": "6th",
+            "2020 Pos": "6th",
+            "2021 Pos": "6th",
+            "2022 Pos": "6th",
+            "2023 Pos": "7th",
+            "2024 Pos": "9th",
+            "Titles (2019-24)": "0"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Virat Kohli",
+            "Team": "RCB",
+            "Match 1": "92",
+            "Match 2": "47",
+            "Match 3": "0",
+            "Match 4": "73",
+            "Match 5": "113",
+            "Form Trend": "› Excellent",
+            "Avg (Last 5)": "65.0"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Rohit Sharma",
+            "Team": "MI",
+            "Match 1": "11",
+            "Match 2": "8",
+            "Match 3": "34",
+            "Match 4": "67",
+            "Match 5": "43",
+            "Form Trend": "fi Average",
+            "Avg (Last 5)": "32.6"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Travis Head",
+            "Team": "SRH",
+            "Match 1": "102",
+            "Match 2": "34",
+            "Match 3": "58",
+            "Match 4": "12",
+            "Match 5": "89",
+            "Form Trend": "› Excellent",
+            "Avg (Last 5)": "59.0"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Jos Buttler",
+            "Team": "RR",
+            "Match 1": "67",
+            "Match 2": "0",
+            "Match 3": "89",
+            "Match 4": "45",
+            "Match 5": "32",
+            "Form Trend": "fi Mixed",
+            "Avg (Last 5)": "46.6"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Jasprit Bumrah",
+            "Team": "MI",
+            "Match 1": "3/24",
+            "Match 2": "2/18",
+            "Match 3": "1/32",
+            "Match 4": "4/10",
+            "Match 5": "2/28",
+            "Form Trend": "› Excellent",
+            "Avg (Last 5)": "2.4 wkts/gam e"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Rashid Khan",
+            "Team": "GT",
+            "Match 1": "2/18",
+            "Match 2": "1/22",
+            "Match 3": "3/15",
+            "Match 4": "0/34",
+            "Match 5": "2/20",
+            "Form Trend": "fi Consistent",
+            "Avg (Last 5)": "1.6 wkts/gam e"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Hardik Pandya",
+            "Team": "MI",
+            "Match 1": "34",
+            "Match 2": "12",
+            "Match 3": "0",
+            "Match 4": "56",
+            "Match 5": "28",
+            "Form Trend": "fl Poor",
+            "Avg (Last 5)": "26.0"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Ruturaj Gaikwad",
+            "Team": "CSK",
+            "Match 1": "78",
+            "Match 2": "34",
+            "Match 3": "12",
+            "Match 4": "90",
+            "Match 5": "56",
+            "Form Trend": "› Good",
+            "Avg (Last 5)": "54.0"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "Abhishek Sharma",
+            "Team": "SRH",
+            "Match 1": "135*",
+            "Match 2": "43",
+            "Match 3": "67",
+            "Match 4": "8",
+            "Match 5": "92",
+            "Form Trend": "› Excellent",
+            "Avg (Last 5)": "69.0"
+        }
+    },
+    {
+        "section": "form",
+        "entity_type": "player",
+        "data": {
+            "Player": "KL Rahul",
+            "Team": "LSG",
+            "Match 1": "45",
+            "Match 2": "67",
+            "Match 3": "23",
+            "Match 4": "12",
+            "Match 5": "54",
+            "Form Trend": "fi Moderate",
+            "Avg (Last 5)": "40.2"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "Year"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2024"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2013"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2011-24"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2019"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2009-22"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2020"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "Various"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2008-24"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2024"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2015"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2016"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2016"
+        }
+    },
+    {
+        "section": "records",
+        "entity_type": "record",
+        "data": {
+            "n LangGraph Node: RecordsNode -Exact fact retrieval. Tests the RAG system's ability to return precise numbers without hallucination.": "2017"
+        }
+    },
+    {
+        "section": "conflict",
+        "entity_type": "validation",
+        "data": {
+            "Player / Fact": "Virat Kohli -Career Runs",
+            "Primary Source Value": "7263",
+            "Secondary Source Value": "7084",
+            "Conflict Type": "Value mismatch",
+            "Expected RAG Behaviour": "Flag conflict, cite both, suggest verification"
+        }
+    },
+    {
+        "section": "conflict",
+        "entity_type": "validation",
+        "data": {
+            "Player / Fact": "Yuzvendra Chahal- Career Wickets",
+            "Primary Source Value": "205",
+            "Secondary Source Value": "187",
+            "Conflict Type": "Value mismatch (retired data?)",
+            "Expected RAG Behaviour": "Flag -secondary may be older dataset"
+        }
+    },
+    {
+        "section": "conflict",
+        "entity_type": "validation",
+        "data": {
+            "Player / Fact": "MI vs CSK -Total Matches",
+            "Primary Source Value": "35",
+            "Secondary Source Value": "33",
+            "Conflict Type": "Count mismatch",
+            "Expected RAG Behaviour": "Flag conflict, both sources cited"
+        }
+    },
+    {
+        "section": "conflict",
+        "entity_type": "validation",
+        "data": {
+            "Player / Fact": "Highest Team Score",
+            "Primary Source Value": "287/3 (SRH, 2024)",
+            "Secondary Source Value": "263/5 (RCB, 2013)",
+            "Conflict Type": "Different records by year",
+            "Expected RAG Behaviour": "Clarify: 287/3 is current record; 263/5 was previous"
+        }
+    },
+    {
+        "section": "conflict",
+        "entity_type": "validation",
+        "data": {
+            "Player / Fact": "MS Dhoni -Matches Played",
+            "Primary Source Value": "250",
+            "Secondary Source Value": "240",
+            "Conflict Type": "Count mismatch",
+            "Expected RAG Behaviour": "Flag -250 is from official IPL; secondary is incomplete"
+        }
+    },
+    {
+        "section": "conflict",
+        "entity_type": "validation",
+        "data": {
+            "Player / Fact": "Best Bowling Figures",
+            "Primary Source Value": "6/12 (Alzarri Joseph)",
+            "Secondary Source Value": "6/14 (Sohail Tanvir)",
+            "Conflict Type": "Different records",
+            "Expected RAG Behaviour": "6/12 is correct; 6/14 was old record. Explain superseded."
+        }
+    }
+]
