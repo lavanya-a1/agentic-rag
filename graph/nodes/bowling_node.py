@@ -3,7 +3,7 @@ from typing import List
 from graph.state import IPLState
 from retrievers.hybrid_search import hybrid_search
 from utils import query_rewriter
-
+from utils.debug import debug_state
 
 class BowlingStatsNode:
     """Uses existing retriever to fetch bowling-related records and stores them in state.bowling_context."""

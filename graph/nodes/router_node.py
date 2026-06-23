@@ -2,6 +2,7 @@ from typing import Any
 
 from graph.state import IPLState
 from utils import metadata_extractor
+from utils.debug import debug_state
 
 
 class RouterNode:
@@ -51,15 +52,27 @@ class RouterNode:
             "maiden",
         ]
 
+        venue_keywords = [
+            "stadium",
+            "venue",
+            "ground",
+            "pitch",
+            "home ground",
+            "capacity",
+            "surface",
+        ]
+
         # Classification precedence: explicit compare/aggregation/reasoning, then domain
         if any(w in q for w in self.AGGREGATION_WORDS):
             qtype = "aggregation"
         elif " vs " in q or "compare" in q:
-            # Comparison may be batting or bowling depending on keywords
+            # Comparison may be batting, bowling, or venue depending on keywords
             if any(w in q for w in batting_keywords):
                 qtype = "batting_comparison"
             elif any(w in q for w in bowling_keywords):
                 qtype = "bowling_comparison"
+            elif any(w in q for w in venue_keywords):
+                qtype = "venue_comparison"
             else:
                 qtype = "comparison"
         elif any(w in q for w in ["why", "explain", "reason", "better", "stronger"]):
@@ -68,6 +81,8 @@ class RouterNode:
             qtype = "batting"
         elif any(w in q for w in bowling_keywords):
             qtype = "bowling"
+        elif any(w in q for w in venue_keywords):
+            qtype = "venue"
         else:
             qtype = "retrieval"
 

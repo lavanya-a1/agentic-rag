@@ -4,6 +4,7 @@ from graph.state import IPLState
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
+from utils.debug import debug_state
 
 load_dotenv()
 
@@ -64,6 +65,8 @@ class SynthesisNode:
             docs = state.get("batting_context") or []
         elif "bowl" in qtype:
             docs = state.get("bowling_context") or []
+        elif "venue" in qtype:
+            docs = state.get("venue_context") or []
         else:
             # fallback: prefer batting then bowling
             docs = state.get("batting_context") or state.get("bowling_context") or []

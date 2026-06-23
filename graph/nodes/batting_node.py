@@ -2,8 +2,7 @@ from typing import List
 
 from graph.state import IPLState
 from retrievers.hybrid_search import hybrid_search
-from utils import query_rewriter
-
+from utils.debug import debug_state
 
 class BattingStatsNode:
     """Uses existing retriever to fetch batting-related records and stores them in state.batting_context."""
@@ -41,6 +40,7 @@ class BattingStatsNode:
 
         for doc in batting_docs:
             print(doc)
+        
 
         return state
 
