@@ -2,6 +2,7 @@
 .venv/
 chroma_db/
 graph/__pycache__/
+graph/nodes/__pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
@@ -9,9 +10,19 @@ graph/__pycache__/
 .idea/
 vectorstore/
 # or narrow to the chroma DB folder:
-# vectorstore/chroma_db/
+ vectorstore/chroma_db/
 json/master_dataset.json
 json/master_dataset_enriched.json
 markdown/*.md
 data/*.pdf
 .DS_Store
+vectorstore/
+*.bin
+*.sqlite3
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
