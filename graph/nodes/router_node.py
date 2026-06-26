@@ -1,8 +1,11 @@
 from typing import Any
 
 from graph.state import IPLState
-from utils import metadata_extractor
-from utils.debug import debug_state
+
+try:
+    from utils import metadata_extractor
+except Exception:  # pragma: no cover - optional dependency guard
+    metadata_extractor = None
 
 
 class RouterNode:
@@ -18,6 +21,9 @@ class RouterNode:
         "top",
         "best",
     ]
+
+    def _contains_any(self, query: str, terms: list[str]) -> bool:
+        return any(term in query for term in terms)
 
     def run(self, state: IPLState) -> IPLState:
         q = state.get("user_query", "").lower()
@@ -60,39 +66,103 @@ class RouterNode:
             "home ground",
             "capacity",
             "surface",
+            "wicket",
+            "conditions",
+            "condition",
+            "batting-friendly",
+            "bowling-friendly",
+            "spin-friendly",
+            "pace-friendly",
+            "dew",
+            "strategy",
+            "toss",
+            "chasing",
+            "defending",
+            "boundary",
+            "boundaries",
+            "bounce",
+            "spin",
+            "pace",
+            "fast",
+            "slow",
+            "flat",
+            "assist",
+            "spinners",
+            "dangerous",
+            "average score",
+            "first innings",
         ]
 
-        # Classification precedence: explicit compare/aggregation/reasoning, then domain
-        if any(w in q for w in self.AGGREGATION_WORDS):
-            qtype = "aggregation"
+        stadium_names = [
+            "wankhede",
+            "chinnaswamy",
+            "eden gardens",
+            "ma chidambaram",
+            "sawai mansingh",
+            "narendra modi",
+            "rajiv gandhi",
+            "mohali",
+            "ekana",
+            "hyderabad",
+            "chennai",
+            "delhi",
+            "mumbai",
+            "kolkata",
+            "jaipur",
+            "ahmedabad",
+            "lucknow",
+            "pune",
+            "bengaluru",
+            "bangalore",
+            "rajiv gandhi stadium",
+            "narendra modi stadium",
+        ]
+
+        # Classification precedence: venue cues first, then compare/aggregation/reasoning, then domain
+        is_venue_query = (
+            self._contains_any(q, venue_keywords)
+            or any(name in q for name in stadium_names)
+            or (
+                "friendly" in q
+                and any(term in q for term in ["batting", "bowling", "spin", "pace"])
+            )
+        )
+
+        if is_venue_query:
+            qtype = "venue"
+        elif any(w in q for w in self.AGGREGATION_WORDS):
+            if self._contains_any(q, batting_keywords):
+                qtype = "batting"
+            elif self._contains_any(q, bowling_keywords):
+                qtype = "bowling"
+            else:
+                qtype = "aggregation"
         elif " vs " in q or "compare" in q:
-            # Comparison may be batting, bowling, or venue depending on keywords
-            if any(w in q for w in batting_keywords):
+            if self._contains_any(q, batting_keywords):
                 qtype = "batting_comparison"
-            elif any(w in q for w in bowling_keywords):
+            elif self._contains_any(q, bowling_keywords):
                 qtype = "bowling_comparison"
-            elif any(w in q for w in venue_keywords):
+            elif is_venue_query:
                 qtype = "venue_comparison"
             else:
-                qtype = "comparison"
+                qtype = "batting_comparison"
         elif any(w in q for w in ["why", "explain", "reason", "better", "stronger"]):
             qtype = "reasoning"
-        elif any(w in q for w in batting_keywords):
+        elif self._contains_any(q, batting_keywords):
             qtype = "batting"
-        elif any(w in q for w in bowling_keywords):
+        elif self._contains_any(q, bowling_keywords):
             qtype = "bowling"
-        elif any(w in q for w in venue_keywords):
-            qtype = "venue"
         else:
             qtype = "retrieval"
 
         # Extract entities via existing metadata extractor (LLM-backed)
         entities = {}
 
-        try:
-            entities = metadata_extractor.extract_metadata(state.get("user_query", ""))
-        except Exception:
-            entities = {}
+        if metadata_extractor is not None:
+            try:
+                entities = metadata_extractor.extract_metadata(state.get("user_query", ""))
+            except Exception:
+                entities = {}
 
         state["query_type"] = qtype
         state["entities"] = entities

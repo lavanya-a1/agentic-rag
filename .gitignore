@@ -10,7 +10,7 @@ graph/nodes/__pycache__/
 .idea/
 vectorstore/
 # or narrow to the chroma DB folder:
- vectorstore/chroma_db/
+vectorstore/chroma_db/
 json/master_dataset.json
 json/master_dataset_enriched.json
 markdown/*.md
