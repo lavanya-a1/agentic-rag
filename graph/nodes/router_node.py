@@ -25,6 +25,65 @@ class RouterNode:
     def _contains_any(self, query: str, terms: list[str]) -> bool:
         return any(term in query for term in terms)
 
+    def _is_h2h_query(self, q: str) -> bool:
+        """Return True when the query expresses a head-to-head / team-comparison intent.
+
+        Detection is purely linguistic — no team names are hardcoded.
+        Three independent signals are checked; any one is sufficient.
+        """
+        import re
+
+        # ── Signal 1: strong standalone h2h phrases ──────────────────────────
+        # These phrases are unambiguous on their own, regardless of context.
+        strong_phrases = [
+            "head-to-head",
+            "head to head",
+            r"\bh2h\b",
+            "win-loss record",
+            "win loss record",
+            r"\brivalry\b",
+            "faced each other",
+            "record between",
+            "history between",
+            "history of matches",
+            "comparison between",
+            "won more matches",
+            "better record",
+            r"\bdominates\b",
+            r"\bdominate\b",
+            r"\bbeaten\b",
+        ]
+        for pattern in strong_phrases:
+            if re.search(pattern, q):
+                return True
+
+        # ── Signal 2: comparison operators between two tokens ────────────────
+        # Matches: "X vs Y", "X versus Y", "X against Y"
+        # The surrounding tokens must be non-empty (i.e. actual entities).
+        comparison_ops = r"(?:\bvs\.?\b|\bversus\b|\bagainst\b)"
+        if re.search(r"\S+\s+" + comparison_ops + r"\s+\S+", q):
+            return True
+
+        # ── Signal 3: question frames about inter-team history ───────────────
+        # Patterns like:
+        #   "between <X> and <Y>"
+        #   "which team has (the) better/more … between"
+        #   "how many … (won|beat|defeated) … between"
+        #   "who has won more (matches|games|times)"
+        inter_team_frames = [
+            r"between\s+\S+\s+and\s+\S+",          # between X and Y
+            r"which team.{0,30}\bbetween\b",         # which team … between
+            r"which team.{0,30}\brecord\b",          # which team … record
+            r"who has (won|beaten|beat).{0,30}more", # who has won/beaten more
+            r"how many.{0,30}(won|beat|defeated)",   # how many times … won
+            r"(match|game|meeting)s?.{0,20}between", # matches between
+        ]
+        for frame in inter_team_frames:
+            if re.search(frame, q):
+                return True
+
+        return False
+
     def run(self, state: IPLState) -> IPLState:
         q = state.get("user_query", "").lower()
 
@@ -118,7 +177,7 @@ class RouterNode:
             "narendra modi stadium",
         ]
 
-        # Classification precedence: venue cues first, then compare/aggregation/reasoning, then domain
+        # Classification precedence: h2h > venue > aggregation > comparison > reasoning > domain
         is_venue_query = (
             self._contains_any(q, venue_keywords)
             or any(name in q for name in stadium_names)
@@ -128,7 +187,17 @@ class RouterNode:
             )
         )
 
-        if is_venue_query:
+        # Head-to-head: delegate to the dedicated linguistic detector.
+        # Venue queries are excluded so that "Which ground is better for MI vs CSK?"
+        # stays classified as venue, not h2h.
+        is_h2h_query = (
+            not is_venue_query
+            and self._is_h2h_query(q)
+        )
+
+        if is_h2h_query:
+            qtype = "h2h"
+        elif is_venue_query:
             qtype = "venue"
         elif any(w in q for w in self.AGGREGATION_WORDS):
             if self._contains_any(q, batting_keywords):

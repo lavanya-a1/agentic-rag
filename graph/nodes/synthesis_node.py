@@ -67,6 +67,8 @@ class SynthesisNode:
             docs = state.get("bowling_context") or []
         elif "venue" in qtype:
             docs = state.get("venue_context") or []
+        elif "h2h" in qtype:
+            docs = state.get("h2h_context") or []
         else:
             # fallback: prefer batting then bowling
             docs = state.get("batting_context") or state.get("bowling_context") or []
