@@ -58,26 +58,51 @@ class SynthesisNode:
 
         qtype = state.get("query_type", "") or ""
 
-        # Select context based on query_type, prefer explicit domain types
-        docs: List[dict] = []
+        # ── Primary context: the context that matches the classified query type ──
+        # This is tried first so the most relevant documents rank at the top.
+        _context_map = {
+            "bat":   "batting_context",
+            "bowl":  "bowling_context",
+            "venue": "venue_context",
+            "h2h":   "h2h_context",
+            "trend": "trend_context",
+        }
 
-        if "bat" in qtype:
-            docs = state.get("batting_context") or []
-        elif "bowl" in qtype:
-            docs = state.get("bowling_context") or []
-        elif "venue" in qtype:
-            docs = state.get("venue_context") or []
-        elif "h2h" in qtype:
-            docs = state.get("h2h_context") or []
-        else:
-            # fallback: prefer batting then bowling
-            docs = state.get("batting_context") or state.get("bowling_context") or []
+        primary_key: str = ""
+        for fragment, key in _context_map.items():
+            if fragment in qtype:
+                primary_key = key
+                break
 
+        primary_docs: List[dict] = list(state.get(primary_key, None) or []) if primary_key else []
+
+        # ── Fallback: collect every non-empty context in priority order ──────────
+        # Used when the primary context is empty OR as a supplement.
+        _priority_order = [
+            "batting_context",
+            "bowling_context",
+            "venue_context",
+            "h2h_context",
+            "trend_context",
+        ]
+
+        fallback_docs: List[dict] = []
+        if not primary_docs:
+            for key in _priority_order:
+                if key == primary_key:
+                    continue  # already checked and was empty
+                bucket = state.get(key) or []
+                if bucket:
+                    fallback_docs.extend(bucket)
+
+        docs: List[dict] = primary_docs or fallback_docs
+
+        # ── Guard: nothing retrieved across all contexts ──────────────────────────
         if not docs:
             state["final_answer"] = "I could not find the answer in the dataset."
             return state
 
-        # Build context string with inline citations using metadata
+        # ── Build context string with inline citations ────────────────────────────
         context_parts = []
 
         for i, d in enumerate(docs, 1):
@@ -101,6 +126,7 @@ class SynthesisNode:
         state["final_answer"] = response.content.strip()
 
         return state
+
 
 
 if __name__ == "__main__":

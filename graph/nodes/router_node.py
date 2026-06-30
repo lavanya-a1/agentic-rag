@@ -195,8 +195,51 @@ class RouterNode:
             and self._is_h2h_query(q)
         )
 
+        # Trend keywords: performance over time, recent form, season-on-season
+        trend_keywords = [
+            "trend",
+            "trends",
+            "form",
+            "recent form",
+            "current form",
+            "in form",
+            "out of form",
+            "last few matches",
+            "last few games",
+            "recent matches",
+            "recent games",
+            "recent performance",
+            "recent performances",
+            "over the seasons",
+            "across seasons",
+            "season trend",
+            "year on year",
+            "over the years",
+            "improvement",
+            "decline",
+            "consistency",
+            "consistent",
+            "inconsistent",
+            "how has",
+            "how have",
+            "evolved",
+            "performing recently",
+            "lately",
+            "last season",
+            "this season",
+        ]
+
+        is_trend_query = (
+            not is_venue_query
+            and not is_h2h_query
+            and self._contains_any(q, trend_keywords)
+        )
+
+        # Classification precedence: h2h > trend > venue > aggregation > comparison > reasoning > domain
         if is_h2h_query:
             qtype = "h2h"
+        elif is_trend_query:
+            qtype = "trend"
         elif is_venue_query:
             qtype = "venue"
         elif any(w in q for w in self.AGGREGATION_WORDS):
