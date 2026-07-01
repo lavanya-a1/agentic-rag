@@ -10,6 +10,7 @@ class IPLState(TypedDict, total=False):
     venue_context: List[Dict[str, Any]]
     h2h_context: List[Dict[str, Any]]
     trend_context: List[Dict[str, Any]]
+    form_context: List[Dict[str, Any]]
     final_answer: str
 
 
@@ -23,5 +24,6 @@ def make_initial_state(query: str) -> IPLState:
         venue_context=[],
         h2h_context=[],
         trend_context=[],
+        form_context=[],
         final_answer="",
     )

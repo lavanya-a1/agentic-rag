@@ -29,6 +29,19 @@ class RouterNodeTests(unittest.TestCase):
                 state = self.router.run(make_initial_state(query))
                 self.assertIn(state["query_type"], {"venue", "venue_comparison"})
 
+    def test_form_queries_are_routed_to_form(self):
+        form_queries = [
+            "What is the recent form of CSK?",
+            "How has Gujarat Titans been performing lately?",
+            "Tell me about the current form of Virat Kohli",
+            "Recent performances of Mumbai Indians",
+        ]
+
+        for query in form_queries:
+            with self.subTest(query=query):
+                state = self.router.run(make_initial_state(query))
+                self.assertEqual(state["query_type"], "form")
+
     def test_player_stat_queries_still_classify_as_batting(self):
         batting_queries = [
             "Virat Kohli runs",

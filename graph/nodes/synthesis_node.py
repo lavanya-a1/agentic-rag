@@ -56,6 +56,19 @@ class SynthesisNode:
 
     def run(self, state: IPLState) -> IPLState:
 
+        # ── [DEBUG 1] Full state snapshot on entry ────────────────────────────
+        print("\n[SynthesisNode] === STATE RECEIVED ===")
+        print(f"  user_query  : {state.get('user_query')!r}")
+        print(f"  query_type  : {state.get('query_type')!r}")
+        all_context_keys = [
+            "batting_context", "bowling_context", "venue_context",
+            "h2h_context", "trend_context", "form_context",
+        ]
+        for ck in all_context_keys:
+            bucket = state.get(ck) or []
+            print(f"  {ck}: count={len(bucket)}")
+        print()
+
         qtype = state.get("query_type", "") or ""
 
         # ── Primary context: the context that matches the classified query type ──
@@ -66,6 +79,7 @@ class SynthesisNode:
             "venue": "venue_context",
             "h2h":   "h2h_context",
             "trend": "trend_context",
+            "form":  "form_context",
         }
 
         primary_key: str = ""
@@ -74,7 +88,11 @@ class SynthesisNode:
                 primary_key = key
                 break
 
+        # ── [DEBUG 2] primary_key resolution ─────────────────────────────────
+        print(f"[SynthesisNode] primary_key resolved to: {primary_key!r}")
+
         primary_docs: List[dict] = list(state.get(primary_key, None) or []) if primary_key else []
+        print(f"[SynthesisNode] primary_docs count: {len(primary_docs)}")
 
         # ── Fallback: collect every non-empty context in priority order ──────────
         # Used when the primary context is empty OR as a supplement.
@@ -84,21 +102,27 @@ class SynthesisNode:
             "venue_context",
             "h2h_context",
             "trend_context",
+            "form_context",
         ]
 
         fallback_docs: List[dict] = []
         if not primary_docs:
+            print("[SynthesisNode] primary_docs empty — checking fallback contexts...")
             for key in _priority_order:
                 if key == primary_key:
                     continue  # already checked and was empty
                 bucket = state.get(key) or []
                 if bucket:
+                    print(f"[SynthesisNode]   fallback: using {key} (count={len(bucket)})")
                     fallback_docs.extend(bucket)
 
         docs: List[dict] = primary_docs or fallback_docs
+        print(f"[SynthesisNode] final docs to synthesise: {len(docs)}")
 
+        # ── [DEBUG 3] Guard check ─────────────────────────────────────────────
         # ── Guard: nothing retrieved across all contexts ──────────────────────────
         if not docs:
+            print("[SynthesisNode] GUARD FIRED — no docs in any context. Returning fallback message.")
             state["final_answer"] = "I could not find the answer in the dataset."
             return state
 
@@ -118,12 +142,24 @@ class SynthesisNode:
 
         context_text = "\n".join(context_parts)
 
+        # ── [DEBUG 4] Exact prompt context sent to LLM ───────────────────────
+        print("[SynthesisNode] === PROMPT CONTEXT SENT TO LLM ===")
+        print(context_text)
+        print("[SynthesisNode] ===================================")
+
         question = state.get("user_query", "")
 
         response = chain.invoke({"question": question, "context": context_text})
 
+        # ── [DEBUG 5] LLM response ────────────────────────────────────────────
+        answer = response.content.strip()
+        print(f"[SynthesisNode] LLM response: {answer!r}")
+        if "could not find" in answer.lower():
+            print("[SynthesisNode] NOTE: LLM returned fallback — context was present but "
+                  "did not match the question (retrieval mismatch, not a code bug).")
+
         # Store model output directly; caller can log or further validate
-        state["final_answer"] = response.content.strip()
+        state["final_answer"] = answer
 
         return state
 
