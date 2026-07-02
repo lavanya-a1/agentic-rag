@@ -107,6 +107,66 @@ class RouterNode:
 
         return False
 
+    def _is_records_query(self, q: str) -> bool:
+        """Return True when the query expresses a record-seeking intent."""
+        import re
+
+        # Avoid confusing record-style wording with recent form or career stats.
+        if self._contains_any(q, ["recent", "current form", "career", "average", "economy", "strike rate"]):
+            return False
+
+        record_terms = [
+            "highest",
+            "lowest",
+            "most",
+            "least",
+            "best",
+            "top",
+            "largest",
+            "smallest",
+            "fastest",
+            "record",
+            "records",
+            "biggest",
+            "longest",
+            "highest successful",
+        ]
+
+        if not self._contains_any(q, record_terms):
+            return False
+
+        # Require a sport-specific candidate term to reduce over-classification.
+        record_subjects = [
+            "run",
+            "runs",
+            "score",
+            "scores",
+            "wicket",
+            "wickets",
+            "century",
+            "sixes",
+            "catches",
+            "victory",
+            "margin",
+            "chase",
+            "figure",
+            "figures",
+            "player of the match",
+            "man of the match",
+            "mof the match",
+            "highest individual",
+            "bowling",
+            "batting",
+            "team",
+        ]
+
+        if self._contains_any(q, record_subjects):
+            return True
+
+        # Fallback: explicit record phrasing should still count.
+        return bool(re.search(r"\b(record|records)\b", q))
+
+
     def _is_h2h_query(self, q: str) -> bool:
         """Return True when the query expresses a head-to-head / team-comparison intent.
 
@@ -313,13 +373,23 @@ class RouterNode:
             and self._contains_any(q, trend_keywords)
         )
 
-        # Classification precedence: h2h > form > trend > venue > aggregation > comparison > reasoning > domain
+        is_records_query = (
+            not is_venue_query
+            and not is_h2h_query
+            and not is_form_query
+            and not is_trend_query
+            and self._is_records_query(q)
+        )
+
+        # Classification precedence: h2h > form > trend > records > venue > aggregation > comparison > reasoning > domain
         if is_h2h_query:
             qtype = "h2h"
         elif is_form_query:
             qtype = "form"
         elif is_trend_query:
             qtype = "trend"
+        elif is_records_query:
+            qtype = "records"
         elif is_venue_query:
             qtype = "venue"
         elif any(w in q for w in self.AGGREGATION_WORDS):

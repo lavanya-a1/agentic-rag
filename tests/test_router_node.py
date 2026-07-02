@@ -42,6 +42,27 @@ class RouterNodeTests(unittest.TestCase):
                 state = self.router.run(make_initial_state(query))
                 self.assertEqual(state["query_type"], "form")
 
+    def test_records_queries_are_routed_to_records(self):
+        records_queries = [
+            "Who has scored the most runs in IPL history?",
+            "Which player has taken the most wickets?",
+            "Highest individual score in IPL.",
+            "Best bowling figures in IPL.",
+            "Which team has the highest total in IPL?",
+            "Lowest team score in IPL history.",
+            "Fastest century in IPL.",
+            "Most sixes in IPL.",
+            "Most catches in IPL.",
+            "Highest successful run chase in IPL.",
+            "Largest victory margin in IPL.",
+            "Which player has the most Player of the Match awards?",
+        ]
+
+        for query in records_queries:
+            with self.subTest(query=query):
+                state = self.router.run(make_initial_state(query))
+                self.assertEqual(state["query_type"], "records")
+
     def test_player_stat_queries_still_classify_as_batting(self):
         batting_queries = [
             "Virat Kohli runs",

@@ -8,6 +8,7 @@ from graph.nodes.venue_node import VenueNode
 from graph.nodes.h2h_node import H2HNode
 from graph.nodes.trend_node import TrendNode
 from graph.nodes.form_node import FormNode
+from graph.nodes.records_node import RecordsNode
 
 
 def run(query: str) -> str:
@@ -33,6 +34,8 @@ def run(query: str) -> str:
         state = TrendNode(top_k=5).run(state)
     elif "form" in qtype:
         state = FormNode(top_k=5).run(state)
+    elif qtype == "records":
+        state = RecordsNode(top_k=5).run(state)
     else:
         # If not explicitly classified, attempt both (batting first)
         state = BattingStatsNode(top_k=5).run(state)
